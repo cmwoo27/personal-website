@@ -2615,6 +2615,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-testimonials {
+    display: none;      /* HIDE SECTION WHEN NOT IN USE */
     background-color: #0D0A0B;
     background-image: url("../images/testimonial-bg.jpg");
     background-repeat: no-repeat;
