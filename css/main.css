@@ -3328,7 +3328,8 @@ footer a:hover, footer a:focus {
 }
 
 .footer-logo {
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;      /* HIDE SECTION WHEN NOT IN USE */
 }
 
 .footer-site-logo {
