@@ -120,7 +120,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
     font-family: "montserrat-medium", sans-serif;
-    color: #0D0A0B;
+    color: #03506f;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -200,7 +200,7 @@ p.lead {
     font-size: 2rem;
     line-height: 1.8;
     margin-bottom: 3.6rem;
-    color: #0D0A0B;
+    color: #0a043c;
 }
 
 @media only screen and (max-width: 800px) {
@@ -517,7 +517,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #a3ddcb;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -562,7 +562,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #a3ddcb;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -815,8 +815,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #0D0A0B;
-    border-color: #0D0A0B;
+    background: #0a043c;
+    border-color: #0a043c;
     color: #FFFFFF;
 }
 
@@ -830,8 +830,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #862121;
-    border-color: #862121;
+    background: #03506f;
+    border-color: #03506f;
 }
 
 
@@ -860,8 +860,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #862121;
-    color: #862121;
+    border: 0.3rem solid #03506f;
+    color: #03506f;
 }
 
 .btn--pill, button.btn--pill {
@@ -1087,7 +1087,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #862121;
+    color: #03506f;
 }
 
 .stats-tabs li a em {
@@ -1131,7 +1131,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skill-bars li .progress {
     background: #000000;
-    background-image: linear-gradient(to right, #191A3F, #2d462c);
+    background-image: linear-gradient(to right, #0a043c, #03506f);
     position: relative;
     height: 100%;
 }
@@ -1267,7 +1267,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
     font-size: 4.8rem;
     line-height: 1.375;
     margin-top: 0;
@@ -1276,7 +1277,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #0a043c;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1380,11 +1381,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color: #03506f;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #03506f;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1409,7 +1410,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #862121;
+    color: #03506f;
 }
 
 .blog-list .blog-cat a::after {
@@ -1661,7 +1662,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #a3ddcb;
 }
 
 
@@ -1776,7 +1777,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1790,7 +1791,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #03506f;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1799,10 +1800,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 6rem;
     line-height: 1.35;
     margin-top: 0;
+}
+
+.home-content-emphasis {
+    color: #a3ddcb;
+}
+
+.home-content-deemphasis {
+    color: #FFFFFF;
 }
 
 .home-content__main {
@@ -1853,8 +1862,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #03506f;
+    border-right: 2px solid #03506f;
     content: '';
     display: block;
     height: 8px;
@@ -1928,7 +1937,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: #a3ddcb;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2992,7 +3001,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight .stats__count::after {
-    background-color: #862121;
+    background-color: #03506f;
 }
 
 .stats__col--highlight h4 {
@@ -3104,7 +3113,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #862121;
+    background: #03506f;
 }
 
 .s-contact .form-field label::after {
@@ -3115,7 +3124,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #03506f;
 }
 
 .contact__main {
@@ -3159,8 +3168,13 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #03506f;
+    border-color: #03506f;
+}
+
+.contact__form button:hover {
+    background-color: #a3ddcb;
+    border-color: #a3ddcb;
 }
 
 .message-warning, .message-success {
@@ -3320,7 +3334,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #03506f;
 }
 
 footer a:hover, footer a:focus {
