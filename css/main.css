@@ -2235,15 +2235,15 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .timeline {
-    display: none;      /* HIDE SECTION WHEN NOT IN USE */
     position: relative;
     text-align: left;
     margin-top: 3.6rem;
 }
 
 .timeline::before {
+    display: none;          /* HIDE SECTION WHEN NOT IN USE */
     content: "";
-    display: block;
+    /* display: block; */
     width: 1px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
@@ -2370,7 +2370,7 @@ html.no-csstransitions .home-content__main {
 .s-works {
     padding-top: 15rem;
     padding-bottom: 15.6rem;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     position: relative;
 }
 
@@ -3320,12 +3320,6 @@ html.no-csstransitions .home-content__main {
 }
 
 
-#message-button {
-    width: 50%;
-    margin-left: 25%;
-}
-
-
 /* ===================================================================
  * # footer - (_site-layout.scss)
  *
@@ -4167,4 +4161,26 @@ article.blog-single .blog-content {
     .commentlist .comment__avatar {
         display: none;
     }
+}
+
+
+/* ADDITIONAL CSS */
+#message-button {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#education {
+    background-color: #f1f1f1;
+}
+
+#timeline-left::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 2rem;
+    top: 0;
 }
