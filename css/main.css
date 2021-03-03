@@ -756,7 +756,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #cf3e3e;
+    -webkit-text-fill-color: #03506f;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -3092,6 +3092,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field {
+    display: none;      /* HIDE SECTION WHEN NOT IN USE */
     position: relative;
 }
 
@@ -3318,6 +3319,11 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+
+#message-button {
+    width: 50%;
+    margin-left: 25%;
+}
 
 
 /* ===================================================================
