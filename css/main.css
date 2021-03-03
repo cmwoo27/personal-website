@@ -2920,7 +2920,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-stats {
-    display: none;      /* HIDE SECTION WHEN NOT IN USE */
     background-color: #f1f1f1;
     text-align: center;
 }
@@ -4183,4 +4182,12 @@ article.blog-single .blog-content {
     position: absolute;
     left: 2rem;
     top: 0;
+}
+
+.col-block {
+    background-color: #a3ddcb;
+}
+
+#stats {
+    background-color: #03506f;
 }
