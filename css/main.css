@@ -2216,6 +2216,10 @@ html.no-csstransitions .home-content__main {
     padding-left: 40px;
 }
 
+.avatar {
+    border-radius: 50%;
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## timeline - (_site-layout.scss) 
